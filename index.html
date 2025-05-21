@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="icon" href="assets\img\icon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- To convert font style only to body from poppins to san serif and color- Entire bg color ,line-height: line spacing  -->
+     <!-- body{ ... } - To modify body content of page-->
+    <style>
+        @media only screen and (max-width: 600px) {
+            iframe{
+                border:none;
+                width:100%;
+                height:auto;
+            }
+        }
+        body
+        {
+            /*font-family: 'Poppins', sans-serif;*/
+            color: #333;
+            background-color: #f0f2f5;
+            line-height: 1.6;
+        }
+        header,footer
+        {
+            background: linear-gradient(to right,#5e3354, #df5929);
+        }
+        header,footer
+        {
+            color:#ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        p{
+            font-size: 16px;
+        }
+        iframe{
+            border:none;
+        }
+        section
+        {
+            margin: 20px auto;
+            padding:20px;
+            background-color:#ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1) ;
+            border-radius: 8px;
+            max-width:1000px;
+        }
+    </style>
+    <!--padding 1st one=length, 2nd one= percentage of that len, color- Text color-->
+</head>
+<body>
+    <center>
+        <header>
+            <h1 style="margin:0;">Project 1: Research Tool</h1>
+        </header>
+        <!--<section style="text-align: left;">-->
+            <section>
+            <h2 style="color:#04010f;">Project Overview</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Dmf5robt2dQ?si=WJHtkTkG3WwrbWSK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p style="text-align: left;">In this project, we successfully developed a web-based application that integrates several advanced natural language processing (NLP) techniques to provide users with detailed answers and paraphrased content from web sources. By leveraging the power of pre-trained models from the Hugging Face Transformers library, such as <b>"tuner007/pegasus_paraphrase"</b> for paraphrasing and <b>"deepset/roberta-base-squad2"</b> for question answering, we created a robust and responsive system.
+            
+        </section>
+        <section>
+            <h2 style="color: #04010f;">Video Demonstration</h2>
+            <p style="text-align: left;"><br><b>User Authentication and History Management</b><br> 1.Implemented user registration and login functionalities, ensuring secure access to the application.<br> 2.Designed a system to store and manage user history, allowing each user to have a personalized experience and maintain a record of their interactions limited to the most recent three entries.<br> <br><b>Web Scraping and Content Extraction </b><br>
+                     1.Developed a reliable web scraping mechanism using BeautifulSoup to extract relevant content from specified URLs.<br>2.Implemented a fallback mechanism to perform Google search queries when direct URLs are not provided, enhancing the versatility of the application.<br><br><b>Question Answering and Paraphrasing </b><br>1.Integrated a question-answering pipeline capable of extracting and answering queries from web content, providing users with precise and relevant information. <br>
+                     2.Implemented a paraphrasing module to rephrase extracted content, offering users multiple perspectives on the same information, thereby enhancing understanding and retention.<br><br>
+                    <b>Responsive Web Interface</b><br> Designed a user-friendly interface using Flask, enabling seamless interactions with the backend functionalities. Included responsive elements like voice recognition and output features to cater to a diverse user base, including those who prefer audio interactions.</p><br><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/m6BSKoLDBCg?si=BXiatQduJddL5_nX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+        </section>
+        <section>
+            <h2 style="color:#04010f;"> Project Details</h2>
+            <p>Github Link for Sourcecode : <a href="https://github.com/thotasravyavardhani/Research-Tool">Github - Research Tool</a></p>
+        </section>
+        <footer>
+            <p>&copy; 2024 : Thota sravya Vardhani, VNISW</p>
+        </footer>
+    </center>
+</body>
+</html>
